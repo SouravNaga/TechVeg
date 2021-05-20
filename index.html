@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopCart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body onload="myfunction()">
+
+    <div id="loading"></div>
+    <section class="first">
+        <div class="wrapper">
+            <h1>THE FOOD YOU LOVE.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, veritatis. Ut rem esse commodi! Qui vitae
+                nihil porro magni illo.</p>
+            <span>Post</span>
+            <form class="form_code">
+                <input class="post_code" type="text" name="" id="" placeholder="Enter your veg">
+                <button type="submit">Find Veg</button>
+            </form>
+        </div>
+    </section>
+    <div class="container">
+        <section class="product">
+            <div class="product_item">
+                <img src="v1.jpg" alt="vegetable1" class="img-responsive">
+                <h2 class="product_heading">
+                    Vegetable1
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse tempore numquam minima non dolorum
+                    sequi iure alias totam officiis voluptas, obcaecati incidunt, nostrum natus eius fuga ea fugit.
+                    Nisi!
+                </p>
+            </div>
+            <div class="product_item">
+                <img src="v2.jpg" alt="vegetable2" class="img-responsive">
+                <h2 class="product_heading">
+                    Vegetable2
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse tempore numquam minima non dolorum
+                    sequi iure alias totam officiis voluptas, obcaecati incidunt, nostrum natus eius fuga ea fugit.
+                    Nisi!
+                </p>
+            </div>
+            <div class="product_item">
+                <img src="img2.png" alt="vegetable3" class="img-responsive">
+                <h2 class="product_heading">
+                    Vegetable3
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse tempore numquam minima non dolorum
+                    sequi iure alias totam officiis voluptas, obcaecati incidunt, nostrum natus eius fuga ea fugit.
+                    Nisi!
+                </p>
+            </div>
+        </section>
+    </div>
+    <section class="fresh">  <div class="container1">
+        <h1>About TechVeg</h1>
+    </div>
+    <section>
+        <div class="containerr">
+            <img src="v1.jpg" alt="" srcset="" class="image-responsive floating-right" style="float: right;" id="firstimg">
+            <div class="text">
+                <h2>what is lorem?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, tempora atque. Impedit vero aut animi
+                    laboriosam itaque facere quo nam provident quos alias velit corrupti non maiores optio, inventore a
+                    dignissimos laborum beatae dolore et praesentium, eos ipsa nisi? Quidem illo corporis consequatur a
+                    sapiente eum fuga eaque nostrum tenetur!</p>
+            </div>
+        </div>
+        <div class="containerr">
+            <img src="v2.jpg" alt="" srcset="" class="image-responsive floating-right" style="float: left;" id="secimg">
+            <div class="text">
+                <h2>what is lorem?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, tempora atque. Impedit vero aut animi
+                    laboriosam itaque facere quo nam provident quos alias velit corrupti non maiores optio, inventore a
+                    dignissimos laborum beatae dolore et praesentium, eos ipsa nisi? Quidem illo corporis consequatur a
+                    sapiente eum fuga eaque nostrum tenetur!</p>
+            </div>
+        </div>
+    </section></section>
+    <section class="contact">
+        <h1>Contact <span>Us</span></h1>
+        <div class="card">
+            <input type="text" name="" id="" placeholder="enter your name">
+            <input type="text" name="" id="" placeholder="your employment status">
+            <input type="email" name="" id="" placeholder="enter your email">
+            <input type="text" name="" id="" placeholder="enter your mobile">
+            <input type="text" name="" id="" placeholder="enter your address">
+            <input type="text" name="" id="" placeholder="subject">
+        </div>
+        <!-- <input type="button" name="" id="" placeholder="subject"> -->
+        <button type="submit">submit</button>
+    </section>
+<section class="footer">
+    <h1>TechVeg</h1>
+    <h2>Social Link</h2>
+    <img class="my" src="pic.jpg" alt="" srcset="" style="float: right;  height: 200px; padding-bottom: 30px;">
+</section>
+<section class="final">
+    <h2>Copyright © 2021 Design by <span>Sourav Naga</span></h2>
+</section>
+</body>
+<script>
+    var preloader = document.getElementById('loading');
+    function myfunction() {
+        preloader.style.display = 'none';
+    }
+</script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card ,.floating-right"),{
+		max: 10,
+		speed: 400,
+        glare:true,
+        "max-glare": 0,
+	});
+    </script>
+</html>
